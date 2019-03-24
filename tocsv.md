@@ -171,9 +171,9 @@ default replacement value, and an example of the variable's default replacement 
 | `last_month` | `start_time` - 1 month | `%m` | `12` |
 | `month`      | `start_time`           | `%m` | `01` |
 | `next_month` | `start_time` + 1 month | `%m` | `02` |
-| `last_week`  | `start_time` - 1 week  | \    | `52` |
-| `week`       | `start_time`           | \    | `01` |
-| `next_week`  | `start_time` + 1 week  | \    | `02` |
+| `last_week`  | `start_time` - 1 week  |      | `52` |
+| `week`       | `start_time`           |      | `01` |
+| `next_week`  | `start_time` + 1 week  |      | `02` |
 | `last_day`   | `start_time` - 1 day   | `%d` | `31` |
 | `day`        | `start_time`           | `%d` | `01` |
 | `next_day`   | `start_time` + 1 day   | `%d` | `02` |
