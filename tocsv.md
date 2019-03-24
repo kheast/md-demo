@@ -163,7 +163,7 @@ Assuming that `start_time` is `01-01-2019T00:30:30`, the following table illustr
 entire value contained by each datetime variable, the format code used to create its
 default replacement value, and an example of the variable's default replacement value:
 
-| Variable     | Value                  | Code | Replacement |
+| Variable     | Entire Value           | Code | Default |
 | -----------  | ---------------------  | ---- | ------- |
 | `last_year`  | `start_time` - 1 year  | `%Y` | `2018` |
 | `year`       | `start_time`           | `%Y` | `2019` |
