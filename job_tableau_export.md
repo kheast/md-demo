@@ -90,7 +90,7 @@ Specification" section.
 Due to formatting constraints, the value for `"query"` above is shown below on multiple
 lines; in the actual configuration, it would be a single line:
 
-```
+```sql
 SELECT 'view', 'key1', 'value1', 'key2', 'value2', 'report_type', 'to'
 UNION ALL
 SELECT view, key1, value1, key2, value2, report_type, to
