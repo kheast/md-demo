@@ -73,12 +73,12 @@ description of the CSV file and its contents.
 
 ```
 {
-	"email": {
-		"type": "sql",
-		"dbo: "postgresql://localhost/analytics",
-		"query": "...see below..."
+    "email": {
+        "type": "sql",
+        "dbo: "postgresql://localhost/analytics",
+        "query": "...see below..."
     },
-	...
+    ...
 }
 ```
 
@@ -89,6 +89,7 @@ Specification" section.
 
 Due to formatting constraints, the value for `"query"` above is shown below on multiple
 lines; in the actual configuration, it would be a single line:
+
 ```
 SELECT 'view', 'key1', 'value1', 'key2', 'value2', 'report_type', 'to'
 UNION ALL
