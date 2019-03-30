@@ -88,13 +88,13 @@ must return column names that exactly match those described in the "Report
 Specification" section.
 
 Due to formatting constraints, the value for `"query"` above is shown below on multiple
-lines; in the actual configuration, it would be a single line:
+lines; in the actual configuration, it would be a single line.
 
 ```
- SELECT
- UNION ALL
- SELECT
- FROM
+SELECT
+UNION ALL
+SELECT
+FROM
 ```
 
 
