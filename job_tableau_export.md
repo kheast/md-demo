@@ -91,10 +91,12 @@ Due to formatting constraints, the value for `"query"` above is shown below on m
 lines; in the actual configuration, it would be a single line.
 
 ```
+
 SELECT
 UNION ALL
 SELECT
 FROM
+
 ```
 
 
