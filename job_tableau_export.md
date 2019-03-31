@@ -92,10 +92,10 @@ lines; in the actual configuration, it would be a single line.
 
 ```
 
-SELECT
-UNION ALL
-SELECT
-FROM
+	SELECT
+	UNION ALL
+	SELECT
+	FROM
 
 ```
 
