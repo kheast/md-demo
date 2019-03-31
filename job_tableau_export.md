@@ -90,7 +90,7 @@ Specification" section.
 Due to formatting constraints, the value for `"query"` above is shown below on multiple
 lines; in the actual configuration, it would be a single line.
 
-```
+~~~
 
 	SELECT
 	UNION ALL
@@ -99,7 +99,7 @@ lines; in the actual configuration, it would be a single line.
 
     asdf
 
-```
+~~~
 
 
 ```
